@@ -1,2 +1,22 @@
+.text-bg-primary {
+  color: color-contrast(#9377ed);
+}
 
+.sm-btn {
+  border: 0;
+}
+
+.sm-btn {
+  background-color: #9377ed;
+  border-color: #4e5ba6;
+  color: #fff;
+  padding: 0.5rem 0.75rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 /*# sourceMappingURL=styles.css.map */
