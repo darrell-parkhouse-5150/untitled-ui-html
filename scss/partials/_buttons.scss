@@ -1,0 +1,3 @@
+.sm-btn {
+    @include btn($clr-primary, $clr-blur-gray, #fff, 'sm');
+}
