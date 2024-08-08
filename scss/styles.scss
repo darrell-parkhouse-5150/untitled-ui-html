@@ -1,3 +1,11 @@
 @import "partials/variables";
+@import "partials/base";
 @import "partials/functions";
+@import "partials/mixin";
 @import "partials/buttons";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
