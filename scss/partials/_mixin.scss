@@ -1,0 +1,9 @@
+@mixin btn ($bg-color, $border-color, $text-color, $size) {
+    background-color: $bg-color;
+    border-color: $border-color;
+    color: $text-color;
+    
+    @if $size == 'sm' {
+        padding: $sm-btn-padding-y $sm-btn-padding-x;
+    }
+}
