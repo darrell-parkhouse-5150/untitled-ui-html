@@ -5,3 +5,8 @@
 @function shade-color($color, $weight) {
     @return mix(#000, $color, $weight);
 }
+
+@function px-to-rem($px) {
+    $result: calc($px / 16) * 1rem;
+    @return $result;
+}
