@@ -7,3 +7,7 @@
         padding: $sm-btn-padding-y $sm-btn-padding-x;
     }
 }
+
+@mixin set-font-family($font) {
+    font-family: $font;
+}
