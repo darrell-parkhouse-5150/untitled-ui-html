@@ -10,3 +10,15 @@ $clr-cool-gray: #5d6b98;
 $clr-modern-gray: #697586;
 
 $prefix: 'uik-';
+
+$theme-colors: (
+    "primary": $clr-primary
+);
+@each $color, $value in $theme-colors {
+    .text-bg-#{$color} {
+        color: color-contrast($value) 
+    }
+}
+
+$sm-btn-padding-x: px-to-rem(12);
+$sm-btn-padding-y: px-to-rem(8);
