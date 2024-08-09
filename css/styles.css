@@ -6,12 +6,50 @@
   border: 0;
 }
 
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
 .sm-btn {
   background-color: #9377ed;
   border-color: #4e5ba6;
   color: #fff;
   cursor: pointer;
   padding: 0.5rem 0.75rem;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.8);
+  width: 100vw;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+.overlay .modal {
+  font-family: "Inter", sans-serif;
+  padding: 0.5rem 0.75rem;
+  background: #fff;
+  width: 440px;
+  height: 140px;
+}
+.overlay .modal .modal-body .modal-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.overlay .modal .modal-body .sub-heading {
+  font-size: 0.75rem;
 }
 
 * {
