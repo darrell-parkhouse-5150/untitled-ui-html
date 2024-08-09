@@ -1,3 +1,13 @@
+@import "./mixin";
 .sm-btn{
     border: 0;
+}
+
+body {
+    @include set-font-family($base-font);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
 }
