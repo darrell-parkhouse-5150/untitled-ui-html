@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Update payment</title>
+        <link
+            rel="shortcut icon"
+            href="img/icons/favicon.png"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <div class="overlay">
+            <div class="modal">
+                <header class="mmodal-header">
+                    <div class="icon">
+                        <div class="cc-icon"></div>
+                    </div>
+                    <div class="icon close-icon"></div>
+                </header>
+                <div class="modal-body">
+                    <div class="modal-title">update payment method</div>
+                    <div class="sub-heading">update your card detials</div>
+                    <form action="" class="update-payment-method-form">
+                        <div class="row">
+                            <div class="form-group">
+                                <label for="">name on card</label><input type="text" class="user-name" />
+                                <div class="form-group">
+                                    <label for="">expire</label>
+                                    <input type="text" class="expire-date" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group">
+                                <label for="cvv">cvv</label>
+                                <input type="text" id="cvv" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="btn-group">
+                                <button class="secondary">cancel</butto>
+                                <button class="primary">update</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
